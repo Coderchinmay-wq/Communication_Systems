@@ -1,0 +1,82 @@
+# Experiment 02 – Amplitude Modulation and Demodulation
+
+## Aim
+
+To study the function of Amplitude Modulation and Demodulation
+and to calculate the modulation index.
+
+---
+
+## Objectives
+
+- Generate an Amplitude Modulated (AM) signal.
+- Observe the AM waveform using an oscilloscope.
+- Measure maximum and minimum envelope amplitudes.
+- Calculate the modulation index.
+- Demodulate the AM signal.
+- Compare the recovered signal with the original message signal.
+
+---
+
+## Theory
+
+Amplitude Modulation (AM) is a modulation technique in which the
+amplitude of the carrier signal is varied according to the amplitude
+of the message signal.
+
+For proper envelope detection:
+
+- Carrier frequency must be much greater than message frequency.
+- The modulation index should not exceed unity for conventional
+  AM without over-modulation.
+
+### Types of Modulation
+
+| Modulation Index | Type |
+|---|---|
+| M < 1 | Under modulation |
+| M = 1 | Perfect modulation |
+| M > 1 | Over modulation |
+
+---
+
+## Components
+
+| Component | Specification |
+|---|---|
+| Breadboard | 830–840 tie points |
+| DC Power Supply | ±12 V |
+| Transistor | BC107 |
+| Resistors | 470 kΩ, 22 kΩ, 10 kΩ, 1.2 kΩ, 1 kΩ |
+| Capacitors | 0.1 µF, 0.01 µF |
+| Diode | OA79 |
+| CRO / DSO | 0–80 Vpp, 0–20 MHz |
+| Function Generator | 0–15 Vpp |
+| Potentiometer | 1 kΩ |
+
+---
+
+## Circuit
+
+### AM Modulator
+
+The AM modulator is implemented using the BC107 transistor
+configuration specified in the laboratory manual.
+
+### AM Demodulator
+
+The demodulator uses a diode detector followed by an RC
+low-pass filter for recovering the message signal.
+
+---
+
+## Proteus Simulation
+
+Proteus files:
+
+```text
+Circuit/
+├── AM_Modulator_Proteus.pdsprj
+├── AM_Demodulator_Proteus.pdsprj
+├── AM_Modulator.png
+└── AM_Demodulator.png
