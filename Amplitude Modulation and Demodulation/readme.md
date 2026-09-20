@@ -80,3 +80,55 @@ Circuit/
 ├── AM_Demodulator_Proteus.pdsprj
 ├── AM_Modulator.png
 └── AM_Demodulator.png
+```
+
+## Experimental Setup
+
+The circuit was implemented on a breadboard and tested using:
+
+- Function generator
+- DC power supply
+- Oscilloscope
+
+The AM waveform was observed on the oscilloscope.
+
+## Modulation Index
+
+The modulation index is calculated using:
+
+M = (Vmax - Vmin) / (Vmax + Vmin)
+
+It can also be calculated using:
+
+M = Vm / Vc
+
+where:
+
+- Vmax = maximum envelope amplitude
+- Vmin = minimum envelope amplitude
+- Vm = amplitude of message signal
+- Vc = amplitude of carrier signal
+
+## Observation Table
+| No. | Vmax (V) | Vmin (V) | M = (Vmax-Vmin)/(Vmax+Vmin) | Vm (V) | Vc (V) | M = Vm/Vc |
+| --- | -------: | -------: | --------------------------: | -----: | -----: | --------: |
+| 1   |          |          |                             |        |        |           |
+| 2   |          |          |                             |        |        |           |
+| 3   |          |          |                             |        |        |           |
+
+## Demodulation
+
+The AM signal is applied to the diode detector and RC low-pass filter.
+
+The recovered output is compared with the original message signal. 
+
+## Results
+### AM Waveform
+
+### Demodulated Waveform
+
+## Conclusion
+
+The AM modulator and demodulator circuits were implemented and
+tested. The AM waveform was observed on the oscilloscope and the
+demodulated signal was compared with the original message signal.
