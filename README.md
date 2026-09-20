@@ -32,7 +32,7 @@ Communication Systems Laboratory throughout the semester.
 
 | No. | Experiment | Status |
 |---|---|---|
-| 01 | Component Identification and Familiarization of Equipment | ⬜ |
+| 01 | Component Identification and Familiarization of Equipment | ✅ |
 | 02 | Amplitude Modulation and Demodulation | ✅ |
 | 03 | Frequency Modulation and Demodulation | ⬜ |
 | 04 | Flat-Top Sampling | ⬜ |
