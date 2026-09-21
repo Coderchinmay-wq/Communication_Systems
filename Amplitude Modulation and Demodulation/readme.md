@@ -123,9 +123,12 @@ The AM signal is applied to the diode detector and RC low-pass filter.
 The recovered output is compared with the original message signal. 
 
 ## Results
+
 ### AM Waveform
+<img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/eee304cf-2272-4d01-9074-b865107849a9" />
 
 ### Demodulated Waveform
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/80b93fd7-6869-4d7f-aab9-366d9e34f013" />
 
 ## Conclusion
 
